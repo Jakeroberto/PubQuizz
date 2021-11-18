@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math test</title>
+    
+    <script>
+    	function checkOne() {
+        	var ans = document.getElementsByName("ans1")
+[0].value
+            if(ans != 1700) {
+            	alert('incorrect')
+            } else {
+            	alert('correct')
+            }
+        }
+        
+        function checkTwo() {
+        	var ans = document.getElementsByName("ans2")
+[0].value
+
+            if(ans != 'x=5') {
+                alert('incorrect')
+           } else {
+              alert('correct')
+           }
+        }
+        
+        function checkThree() {
+        	var ans = document.getElementsByName("ans3")
+[0].value
+
+           if(ans != 28) {
+               alert('incorrect')
+           }else {
+              alert('correct') 
+             }
+        }
+            
+         function checkFour() {
+         	var ans= document.getElementsByName("ans4")
+[0].value
+
+           if(ans !=27)  {
+              alert('incorrect')
+           }else {
+               alert('correct')
+           }
+              
+         }
+        
+    </script>
+</head>
+<body style= background-color:orange;color:blue; >
+
+<h1 style="font-size:50px;"> Mathematics test</h1>
+
+<p style="font-size:35px;"><b>what is 12.5% of 6800</b></p>
+
+<input name="ans1" type="text">
+
+ <button id="buton" type="button" class="btn-style" value="search" onclick="checkOne()">submit</button> 
+
+<button type="button" onclick="alert('1700')">Show answer</button>
+
+<button type="button" onclick="alert('Just half it then half it again!')">Help</button>
+
+</body>
+<body>
+<p style="font-size:35px;"><b>If y=6 what does x equal if 2x+y=16</b></p>
+
+<input name="ans2" type="text"> 
+
+ <button id="buton" type="button" class="btn-style" value="search" onclick="checkTwo();">submit</button> 
+
+<button type="button" onclick="alert('x=5')">Show answer</button>
+
+<button type="button" onclick="alert('Take the 6 from your 16 then divide whats left by 2!')">Help</button>
+
+<p style="font-size:35px"><b>If 5x+3y=26 what is 6x+2y</b></p>
+
+<input name="ans3" type="text">
+
+ <button id="buton" type="button" class="btn-style" value="search" onclick="checkThree();">submit</button> 
+
+<button type="button" onclick="alert('28')">Show answer</button>
+
+<button type="button" onclick="alert('6 is only divisible by the 3. work from there!')">Help</button>
+
+<p style="font-size:35px"><b> if y <sup> 2 </sup> is 9 what would y <sup> 3 </sup> equal</b></p>
+
+<input name="ans4" typr="text">
+
+<button id="button" type="button" class="btn-style" value="search"
+onclick="checkFour();">submit</button> 
+
+<button type="button" onclick="alert('27')"> Show answer</button>
+
+<button type="button" onclick="alert('When using powers in mathematics always retrace the number to its first power.(start by finding the square root of 9)')">Help</button> 
+
+
+<!-- pass: link to word application A/ fail: link to word application B --> 
+<p style=font-size:40px;> <a href=> Results <a/> <p/>
+
+<p> <button onclick="window.print()">Print your results</button> </p>
+
+

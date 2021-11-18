@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Test centre: Homepage</title>
+
+<style>
+*
+ {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: orange;
+  padding: 40px;
+  text-align: center;
+  font-size: 35px;
+  color: blue;
+}
+
+article {
+  float: middle;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 250px; 
+}
+
+nav {
+  float: middle;
+  width: 100%;
+  height: 550px; 
+  background:rgb(0, 162, 255);
+  padding: 20px;
+  color:orange;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  height:90px
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Welcome to the test centre!</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+        <h1 style=font-size:35px;> Select the topic you would like to be tested on:</h1>
+      <li> <a style=font-size:35px; href="file:///Users/jake/html/englishTest.html">English</a></li>
+      <li><a style=font-size:35px; href="file:///Users/jake/html/mathtest.html">Mathematics</a></li>
+      <li><a style=font-size:35px; href="#">Science</a></li>
+      <li><a style=font-size:35px; href="">History</a></li>
+      <li><a style=font-size:35px; href="">Geography</a></li>
+
+
+    </ul>
+  </nav>
+  
+  <article>
+    <h1 style=font-size:30px;> About us:</h1>
+    <p style= font-size:20px;> Welcome to the online test centre, the best place to test your knowledge ahead of an exam.</p>
+    <p style= font-size:20px;> All of our tests are completely free and offer tips to help you figure out the answers wherever you may be unsure. </p>
+    
+  </article>
+</section>
+
+<footer>
+    <p style=font-size:35px;">Contact us</p>
+</footer>
+
+</body>
+</html>
+
